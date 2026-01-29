@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-ln-half@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-ln-half/tags). For example,
+
+```javascript
 import FLOAT16_LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-ln-half@v0.1.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( FLOAT16_LN_HALF === -0.693359375 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT16_LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-ln-half@v0.1.0-deno/mod.js';
+import FLOAT16_LN_HALF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-ln-half@deno/mod.js';
 
 console.log( FLOAT16_LN_HALF );
 // => -0.693359375
